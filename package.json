@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-example",
+  "version": "1.0.0",
+  "description": "vuejs example with route vuex",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardog/vuejs-example.git"
+  },
+  "author": "hardog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardog/vuejs-example/issues"
+  },
+  "homepage": "https://github.com/hardog/vuejs-example#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "webpack": "^4.4.1"
+  }
+}

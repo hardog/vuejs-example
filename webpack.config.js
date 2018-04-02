@@ -3,14 +3,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 module.exports = {
   mode: 'production',//development,production
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index.js'
+    filename: 'index.js',
+    publicPath: './dist/'
   },
   plugins: [
     new HtmlWebpackPlugin()
@@ -32,11 +32,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'vuejs-example',
-      template: './src/index.html',
-      inlineSource: '.(js|css)$',
-      inject: true
+      template: './src/index.html'
     }),
-    new HtmlWebpackInlineSourcePlugin(),
     new ExtractTextPlugin('index.css')
   ]
 };

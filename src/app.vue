@@ -1,7 +1,8 @@
 <style scoped>
 .wrapper{
-  height: 600px;
+  height: 800px;
   background-color: #eeeeee;
+  overflow-y: scroll;
 }
 </style>
 
@@ -11,7 +12,12 @@
     <div class="links">
       <router-link to="/test">GoTest</router-link>
       <router-link to="/cal">GoCal</router-link>
+      <h4>Use Component</h4>
       <router-link to="/compose">GoComponent</router-link>
+      <h4>Use Store</h4>
+      <router-link to="/storea">GoStoreA</router-link>
+      <router-link to="/storeb">GoStoreB</router-link>
+      <router-link to="/storec">GoStoreC</router-link>
     </div>
     <hr/>
     <router-view></router-view>

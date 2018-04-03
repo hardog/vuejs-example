@@ -1,2 +1,9 @@
-# vuejs-example
+# Vuejs Example
 vuejs example with route vuex
+
+# Used Techs
+
+- webpack
+- webpack-dev-server
+- vue-router
+- vuex

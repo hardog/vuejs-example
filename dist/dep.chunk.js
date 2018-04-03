@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{12:function(o,s,n){"use strict";console.log("this is module1"),o.exports={a:function(){return console.log("this is m1 a"),"A"}}},31:function(o,s,n){"use strict";console.log("this is module2"),o.exports=2}}]);

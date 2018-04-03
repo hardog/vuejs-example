@@ -7,3 +7,4 @@ vuejs example with route vuex
 - webpack-dev-server
 - vue-router
 - vuex
+- code split

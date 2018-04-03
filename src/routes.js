@@ -9,6 +9,7 @@ import Compose from '@src/pages/compose.vue';
 import Storea from '@src/pages/storea.vue';
 import Storeb from '@src/pages/storeb.vue';
 import Storec from '@src/pages/storec.vue';
+import Split from '@src/pages/split.vue';
 
 // use的插件不是实例化后的插件
 Vue.use(vueRouter);
@@ -19,7 +20,8 @@ const routes = [
   { path: '/compose', component: Compose},
   { path: '/storea', component: Storea},
   { path: '/storeb', component: Storeb},
-  { path: '/storec', component: Storec}
+  { path: '/storec', component: Storec},
+  { path: '/split', component: Split}
 ];
 
 const Router = new vueRouter({

@@ -1,29 +1,25 @@
 <style scoped>
-div{
-  font-size: 40px;
-  color: #000000;
+.wrapper{
+  background-color: #eeeeee;
 }
 </style>
 
 <template>
-  <div>
-    <h4>hardog, 27 years old</h4>
-    <div> {{msg}}</div>
-    <img :src="imgUrl"/>
-    <img :src="largeUrl"/>
+  <div class="wrapper">
+    <h3>Pages Example</h3>
+    <div class="links">
+      <router-link to="/test">GoTest</router-link>
+      <router-link to="/cal">GoCal</router-link>
+    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import shareImg from '@assets/share.png';
-import largeImg from '@assets/large.png';
 
 export default{
   data(){
     return {
-      msg: 'hello world',
-      imgUrl: shareImg,
-      largeUrl: largeImg
     };
   }
 }

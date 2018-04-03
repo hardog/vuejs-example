@@ -21,7 +21,7 @@ module.exports = {
     alias: {
       '@src': srcPath,
       '@assets': assetsPath
-    },
+    }
   },
   module: {
     rules: [{

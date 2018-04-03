@@ -5,7 +5,8 @@
   line-height: 40px;
   font-size: 20px;
   text-align: center;
-  color: #ddd;
+  color: #000;
+  border: 1px solid #ddd;
 }
 </style>
 

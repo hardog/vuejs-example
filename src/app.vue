@@ -18,7 +18,7 @@
       <router-link to="/storea">GoStoreA</router-link>
       <router-link to="/storeb">GoStoreB</router-link>
       <router-link to="/storec">GoStoreC</router-link>
-      <h4>Use Split</h4>
+      <h4>Use Code Split</h4>
       <router-link to="/split">GoSplit</router-link>
     </div>
     <hr/>
